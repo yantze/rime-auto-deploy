@@ -6,6 +6,10 @@ patch:
     com.microsoft.VSCode:
       ascii_mode: true
       vim_mode: true
+    fun.tw93.kaku:
+      ascii_mode: true
+      no_inline: true
+      vim_mode: true
     com.apple.Terminal:
       ascii_mode: true
       no_inline: true
@@ -32,6 +36,8 @@ patch:
     # 选择皮肤，亮色与暗色主题
     color_scheme: purity_of_form_custom
     color_scheme_dark: mritd_dark
+    candidate_list_layout: linear  # 将候选词排布设为线性（横排）
+    horizontal: true               # 强制开启横排显示
 
     # 预设选项：（可被皮肤覆盖；如果皮肤没写，则默认使用这些属性。）
     text_orientation: horizontal  # horizontal | vertical
