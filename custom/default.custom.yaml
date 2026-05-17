@@ -32,4 +32,4 @@ patch:
       - key_bindings:/paging_with_minus_equal  # 减号等号翻页
       # - key_bindings:/paging_with_comma_period   # 逗号句号翻页
       # - key_bindings:/paging_with_brackets   # 中括号翻页
-      - key_bindings:/optimized_mode_vim   # 支持 ESC 切换到 ascii mode
+      # - key_bindings:/optimized_mode_vim   # 已关闭：它会吃掉第一次 Esc，导致 Kaku 等 app 需要按两次。改由各 app 的 vim_mode: true 处理

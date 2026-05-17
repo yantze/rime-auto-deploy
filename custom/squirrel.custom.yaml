@@ -30,11 +30,13 @@ patch:
     com.jetbrains.intellij:
       ascii_mode: true
       vim_mode: true
+    fun.tw93.kaku:
+      vim_mode: true   # 按 ESC 切回英文的同时把 Esc 透传给 Kaku，用于 Vim 退出插入模式
 
   # style/color_scheme: mritd_dark             # 方案命名，不能有空格
   style:
     # 选择皮肤，亮色与暗色主题
-    color_scheme: purity_of_form_custom
+    color_scheme: mritd_dark
     color_scheme_dark: mritd_dark
     candidate_list_layout: linear  # 将候选词排布设为线性（横排）
     horizontal: true               # 强制开启横排显示
@@ -71,6 +73,8 @@ patch:
       hilited_corner_radius: 3                  # 高亮圆角
       border_height: 6                          # 窗口边界高度，大于圆角半径才生效
       border_width: 6                           # 窗口边界宽度，大于圆角半径才生效
+      candidate_list_layout: linear             # 候选排布：层叠 stacked | 行 linear
+
       border_color_width: 0
       #font_face: "PingFangSC"                  # 候选词字体
       font_face: "YaHei Monaco Hybird"          # 候选词字体
